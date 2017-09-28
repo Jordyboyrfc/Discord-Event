@@ -1,0 +1,4 @@
+embed=discord.Embed(title="Weekly Schedule", url='https://docs.google.com/spreadsheets/d/15lVbjdtOkrqxmoAAIaNts4h8wuv-iBP0NBSBknxjMtk/edit#gid=0', description="Weekly Schedule For Warframe Events for Forsaken Gamers")
+embed.set_author(name="Forsaken Gamers", url='https://discord.gg/kzgEenc')
+embed.set_footer(text="Click for Schedule")
+await self.bot.say(embed=embed)
